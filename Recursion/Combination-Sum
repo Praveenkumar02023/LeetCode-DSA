@@ -1,0 +1,31 @@
+class Solution {
+public:
+
+    void solve(vector<int>& cand,int target , vector<int>& ds ,vector<vector<int>> &res,int sum,int i){
+
+        if(sum > target){
+            return;
+        }
+
+        if(i >= cand.size()){
+            if(sum == target){
+                res.push_back(ds);
+            }
+            return;
+        }
+
+        ds.push_back(cand[i]);
+        solve(cand,target,ds,res,sum + cand[i] , i);
+        ds.pop_back();
+
+        solve(cand,target,ds,res,sum,i+1);
+
+    }
+
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<int> ds;
+        vector<vector<int>> res;
+        solve(candidates,target,ds,res,0,0);
+        return res;
+    }
+};
