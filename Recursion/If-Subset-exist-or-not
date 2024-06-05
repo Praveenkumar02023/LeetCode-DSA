@@ -1,0 +1,27 @@
+bool solve(int i , int n , int k , vector<int> & a){
+
+    if(i >= n){
+        if(k == 0) return true;
+        return false;
+    }
+
+    if(k < 0) return false;
+
+
+   
+    if(a[i] <= k){
+        if( solve(i+1,n,k-a[i],a) == true) return true;
+    }
+
+    if(solve(i+1,n,k,a)== true) return true;
+
+    return false;
+
+}
+
+
+bool isSubsetPresent(int n, int k, vector<int> &a)
+{
+   return solve(0,n,k,a);
+
+}
