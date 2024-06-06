@@ -85,3 +85,64 @@ int main(){
 
 **********Optimised solution***********
 
+
+
+#include <iostream> 
+#include <vector>
+#include <string>
+
+using namespace std;
+
+
+
+
+
+void Nqueens(int i ,int j, vector<string>& ds , vector<vector<string>>& res,int n,vector<int>&leftRow,vector<int>&upperDiag , vector<int>&lowerDiag ){
+    
+    if(j >= n){
+        res.push_back(ds);
+        return;
+    }
+    
+    for(int row = i ; row < 4 ; row++){
+        if(leftRow[row] == 0 && upperDiag[row+j] == 0 && lowerDiag[n-1+j-row] == 0){
+            ds[row][j] = 'Q';
+            leftRow[row]= 1;
+            upperDiag[row+j]= 1;
+            lowerDiag[n-1+j-row]=1;
+            Nqueens(i,j+1,ds,res,n,leftRow,upperDiag,lowerDiag);
+            leftRow[row]= 0;
+            upperDiag[row+j]= 0;
+            lowerDiag[n-1+j-row]=0;
+            ds[row][j] = '.';
+        }
+    }
+    
+    
+    
+}
+
+int main(){
+    vector<vector<string>> res;
+    vector<string> ds;
+    vector<int> leftRow(4,0),upperDiag(7,0),lowerDiag(7,0);
+    
+    string s(4,'.');
+    
+    for(int i = 0 ; i < 4 ; i++){
+        ds.push_back(s);
+    }
+    
+    Nqueens(0,0,ds,res,4,leftRow,upperDiag,lowerDiag);
+    
+    for(auto & it : res){
+        for(auto & row: it){
+            cout<<row<<endl;
+        }
+        cout<<endl;
+    }
+    
+    
+    return 0;
+}
+
