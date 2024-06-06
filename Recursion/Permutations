@@ -1,0 +1,89 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+void solve(int i , vector<int>& arr , vector<int>& ds , vector<vector<int>> &res,vector<int>&freq){
+    
+    if(ds.size() == 3){
+        res.push_back(ds);
+        return;
+    }
+    
+    for(int j = 0 ; j < 3 ; j++){
+        if(freq[j] == 0){
+            ds.push_back(arr[j]);
+            freq[j]=1;
+            solve(j ,arr,ds,res,freq);
+            freq[j]=0;
+            ds.pop_back();
+        }
+    }
+    
+}
+
+int main(){
+    vector<int> arr(3);
+    for(int i = 0 ; i < 3 ; i++){
+        cin>>arr[i];
+    }
+    vector<int> ds;
+    vector<vector<int>> res;
+    vector<int> freq(3,0);
+    solve(0,arr,ds,res,freq);
+    
+    for(int i = 0 ; i < 6; i++){
+        for(int j = 0 ; j < 3 ; j++){
+            cout<<res[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+
+
+
+
+************ Optimised Solution **************
+
+
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+void solve(int i , vector<int>& arr){
+    
+   if(i == 2){
+       for(int j = 0 ;j < 3 ; j++){
+           cout<<arr[j]<<" ";
+       }
+       cout<<endl;
+       return;
+   }
+    
+    for(int j = i ; j < 3 ;j++ ){
+        swap(arr[i],arr[j]);
+        solve(i+1,arr);
+        swap(arr[i],arr[j]);
+    }
+    
+    
+    
+}
+
+int main(){
+    vector<int> arr(3);
+    for(int i = 0 ; i < 3 ; i++){
+        cin>>arr[i];
+    }
+    
+   
+    solve(0,arr);
+    
+    
+    
+    return 0;
+}
