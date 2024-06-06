@@ -1,0 +1,87 @@
+#include <iostream> 
+#include <vector>
+#include <string>
+
+using namespace std;
+bool isPossible(int i , int j , vector<string>&ds , int n){
+    int row = i;
+    int col = j;
+    //for upper diagnal
+    while(row >= 0 && col >= 0){
+        if(ds[row][col] == 'Q') return false;
+        row--;
+        col--;
+    }
+    
+    row = i;
+    col = j;
+    
+    //for left side
+    while(col >= 0){
+        if(ds[row][col] == 'Q') return false;
+        col--;
+    }
+    
+    
+    col = j;
+    //for lower diagonal
+    
+    while(row < n && col >= 0){
+        if(ds[row][col] == 'Q') return false;
+        row++;
+        col--;
+    }
+    
+    
+    return true;
+}
+
+
+
+
+void Nqueens(int i ,int j, vector<string>& ds , vector<vector<string>>& res,int n ){
+    
+    if(j >= n){
+        res.push_back(ds);
+        return;
+    }
+    
+    for(int row = i ; row < 4 ; row++){
+        if(isPossible(row,j,ds,n)){
+            ds[row][j] = 'Q';
+            Nqueens(i,j+1,ds,res,n);
+            ds[row][j] = '.';
+        }
+    }
+    
+    
+    
+}
+
+int main(){
+    vector<vector<string>> res;
+    vector<string> ds;
+    
+    string s(4,'.');
+    
+    for(int i = 0 ; i < 4 ; i++){
+        ds.push_back(s);
+    }
+    
+    Nqueens(0,0,ds,res,4);
+    
+    for(auto & it : res){
+        for(auto & row: it){
+            cout<<row<<endl;
+        }
+        cout<<endl;
+    }
+    
+    
+    return 0;
+}
+
+
+
+**********Optimised solution***********
+
