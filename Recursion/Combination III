@@ -1,0 +1,30 @@
+class Solution {
+public:
+    void solve(int i , int sum , vector<int>& arr , vector<vector<int>>& res , int n , int k){
+        if(arr.size() == k && sum == n){
+            res.push_back(arr);
+            return;
+        }else if(arr.size() == k && sum > n) return;
+
+        for(int idx = i ; idx <= 9 ; idx++){
+
+            arr.push_back(idx);
+            sum += idx;
+            solve(idx+1,sum,arr,res,n,k);
+            arr.pop_back();
+            sum -= idx;
+        }
+    }
+
+    vector<vector<int>> combinationSum3(int k, int n) {
+        vector<vector<int>> res;
+
+        vector<int> arr;
+
+        int sum  = 0;
+
+        solve(1,sum,arr,res,n,k);
+
+        return res;
+    }
+};
