@@ -1,0 +1,55 @@
+class Solution{
+public:
+    void BinStr(int n , vector<string>& res,int num , string bin){
+        
+        //base
+        if(n == num){
+            res.push_back(bin);
+            return;
+        }
+        
+        
+        if(bin.back() == '0'){
+            //next element can be either 1 or 0
+            
+            bin.push_back('0');
+            BinStr(n+1,res,num,bin);
+            
+            bin.pop_back();
+            bin.push_back('1');
+            BinStr(n+1,res,num,bin);
+            bin.pop_back();
+        }
+        
+        if(bin.back() == '1'){
+            //next element can be 0 only
+            
+            bin.push_back('0');
+            BinStr(n+1,res,num,bin);
+        }
+        
+    }
+
+    void solve(vector<string>& res , int num){
+        string binary = "";
+        
+        //if we take 1st element as 0
+        
+        binary.push_back('0');
+        BinStr(1,res,num,binary);
+        binary.pop_back();
+        
+        //if we take first element as 1
+        
+        binary.push_back('1');
+        BinStr(1,res,num,binary);
+    }
+    
+    vector<string> generateBinaryStrings(int num){
+        vector<string> res;
+        
+        solve(res,num);
+        
+        return res;
+    }
+};
