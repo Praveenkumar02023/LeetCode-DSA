@@ -1,0 +1,35 @@
+class Solution {
+public:
+    void solve(int num , int n, int OpenCnt , int CloseCnt , string & s , vector<string>& res ){
+        if(num == n){
+            res.push_back(s);
+            return;
+        }
+
+        if(OpenCnt < n/2){
+            s.push_back('(');
+            solve(num+1,n,OpenCnt + 1, CloseCnt , s , res);
+            s.pop_back();
+        }
+
+        if(OpenCnt > CloseCnt){
+            s.push_back(')');
+            solve(num+1,n,OpenCnt,CloseCnt + 1 , s , res);
+            s.pop_back();
+        }
+    }
+
+
+    vector<string> generateParenthesis(int n) {
+        vector<string> res;
+        string s = "(";
+        int OpenCnt = 1;
+        int CloseCnt = 0;
+
+        n = 2*n;
+
+        solve(1,n,OpenCnt,CloseCnt,s,res);
+
+        return res;
+    }
+};
