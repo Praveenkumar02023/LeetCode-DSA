@@ -1,0 +1,59 @@
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+bool isPalindrome(string &sub,int s , int e){
+    while(s < e ){
+        if(sub[s] != sub[e]){
+            return false;
+        }
+        
+        s++;
+        e--;
+    }
+    
+    return true;
+}
+
+void solve(int i , string & s , vector<string> &path , vector<vector<string>> & res){
+    
+    if(i == 4){
+        res.push_back(path);
+        return;
+    }
+    
+    for(int idx = i ; idx < 4 ; idx++){
+        
+        
+        if(isPalindrome(s,i,idx)){
+            path.push_back(s.substr(i,idx-i+1));
+            solve(idx+1,s,path,res);
+            path.pop_back();
+        }
+        
+    }
+    
+}
+
+
+int main(){
+    string s = "";
+    for(int i = 0 ; i < 4 ; i++){
+        char a;
+        cin>> a;
+        s += a;
+    }
+    
+    vector<vector<string>> res;
+    vector<string> path;
+    
+    solve(0,s,path,res);
+    
+    for(auto it : res){
+        for(auto i: it) cout<<i<<" ";
+        cout<<endl;
+    }
+    
+    return 0;
+}
