@@ -1,0 +1,41 @@
+class Solution {
+public:
+    bool Find(int n , int m, int i , int j , int k , string word , vector<vector<char>>& board){
+
+        if(k >= word.size()) return true;
+
+        if(i < 0 || i >= n || j < 0 || j >= m || board[i][j] == '$'){
+            return false;
+        }
+
+        if(board[i][j] != word[k]) return false;
+
+        char temp = board[i][j];
+        board[i][j] = '$';
+        bool ans = (Find(n,m,i+1,j,k+1,word,board)||
+                    Find(n,m,i-1,j,k+1,word,board)||
+                    Find(n,m,i,j+1,k+1,word,board)||
+                    Find(n,m,i,j-1,k+1,word,board)) ;
+        board[i][j] = temp;
+
+        return ans;
+
+    }
+    
+    
+    bool exist(vector<vector<char>>& board, string word) {
+        int n = board.size();
+        int m = board[0].size();
+
+        
+
+        for(int i = 0 ; i < n ; i++){
+            for(int j = 0 ; j < m ; j++){
+                if(board[i][j] == word[0] && Find(n ,  m ,  i ,  j , 0 , word,board)){
+                    return true;
+                }
+            }
+        } 
+        return false;
+    }
+};
