@@ -12,12 +12,9 @@ public:
 
         maxf = max(maxf,arr[s[j]-'A']);
 
-        while((j-i+1) - maxf > k){
+        if((j-i+1) - maxf > k){
             arr[s[i]-'A']--;
             i++;
-            for(int k = 0 ; k < 26 ; k++){
-                maxf = max(maxf,arr[k]);
-            }
         }
 
         if((j-i+1) - maxf <= k){
