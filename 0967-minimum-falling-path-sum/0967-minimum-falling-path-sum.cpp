@@ -13,7 +13,7 @@ public:
         return dp[i][j] = min({down,diagLeft,diagRight});
     }
     int minFallingPathSum(vector<vector<int>>& mat) {
-        vector<vector<int>> dp(mat.size(),vector<int>(mat[0].size(),-1));
+        // vector<vector<int>> dp(mat.size(),vector<int>(mat[0].size(),-1));
         // int res = 1e9;
         // // for(int i = 0 ; i < mat[0].size() ;i++){
         // //     int minn = solve(0,i,mat,dp);
@@ -22,25 +22,28 @@ public:
 
         // return res;
 
+        vector<int> prev(mat[0].size(),-1);
         for(int i = 0 ; i < mat[0].size() ; i++){
-            dp[mat.size()-1][i] = mat[mat.size()-1][i];
+            prev[i] = mat[mat.size()-1][i];
         }
 
         for(int i = mat.size()-2 ; i >= 0 ; i--){
-
+            vector<int> curr(mat[0].size(),0);
             for(int j = mat[0].size()-1 ; j >= 0 ; j--){
 
                 int up = 1e9,diagRight = 1e9 , diagLeft = 1e9;
-                up = mat[i][j] + dp[i+1][j];
-                if(j < mat[0].size()-1) diagRight = mat[i][j] + dp[i+1][j+1];
-                if(j > 0) diagLeft = mat[i][j] + dp[i+1][j-1];
+                up = mat[i][j] + prev[j];
+                if(j < mat[0].size()-1) diagRight = mat[i][j] + prev[j+1];
+                if(j > 0) diagLeft = mat[i][j] + prev[j-1];
 
-                dp[i][j] = min({up,diagLeft,diagRight});
+                curr[j] = min({up,diagLeft,diagRight});
             }
+
+            prev = curr;
         }
         int res = 1e9;
         for(int i = 0 ; i < mat[0].size() ; i++){
-            res = min(res,dp[0][i]);
+            res = min(res,prev[i]);
         }
 
         return res;
