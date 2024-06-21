@@ -21,7 +21,7 @@ public:
         for(auto num : nums) totalSum += num;
 
         int sum = (totalSum-target)/2;
-        if(((totalSum-target) < 0 ) || (totalSum-target)%2 != 0 || sum < 0) return 0;
+        if(((totalSum-target) < 0 ) || (totalSum-target)%2 != 0 ) return 0;
 
         vector<vector<int>> dp(nums.size(),vector<int>(sum + 1 , -1));
 
