@@ -19,22 +19,20 @@ public:
     // }
     int maxProfit(vector<int>& arr) {
         int n = arr.size();
-        vector<int> dp(n+1,0);
+       int MaxProfit = 0; 
         // return solve(prices,n-1,INT_MIN,dp);
         int Minn = INT_MAX;
-        for(int j = 1 ; j <= n ; j++){
+        for(int j = 0 ; j < n ; j++){
 
             int Profit = 0;
            
-            if(arr[j-1] < Minn) Minn = arr[j-1];
+            if(arr[j] < Minn) Minn = arr[j];
             else{
-                Profit = arr[j-1] - Minn;
+                Profit = arr[j] - Minn;
             }
-            int possProfit = dp[j-1];
-
-            dp[j] = max(Profit,possProfit);
+            MaxProfit = max(Profit,MaxProfit);
         }
 
-        return dp[n];    
+        return MaxProfit;    
     }
 };
