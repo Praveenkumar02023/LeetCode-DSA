@@ -16,23 +16,25 @@ public:
 
     int maxProfit(vector<int>& arr) {
         int n = arr.size();
-        vector<vector<int>> dp(n+1,vector<int>(2,0));
+       vector<int> prev(2,0), cur(2,0);
 
         // return solve(0,prices,false,dp);
         for(int i = n-1 ; i >= 0 ; i--){
             for(int j = 1 ; j >= 0 ; j-- ){
                 int take = 0;
                 if(j){
-                    take  = max((arr[i] +dp[i+1][false]) ,  0 + dp[i+1][true]);
+                    take  = max((arr[i] + prev[false]) ,  0 + prev[true]);
                    
                 }else{
-                    take = max((-arr[i] + dp[i+1][true]) ,0 + dp[i+1][false]);
+                    take = max((-arr[i] + prev[true]) , prev[false]);
                 }
 
-                  dp[i][j] = take;
+                  cur[j] = take;
             }
+
+            prev = cur;
         }
-        return dp[0][0];
+        return prev[0];
 
     }
 };
