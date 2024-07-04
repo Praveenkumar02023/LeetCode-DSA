@@ -21,7 +21,23 @@ public:
 
         nums.push_back(1);
         nums.insert(nums.begin(),1);
-        vector<vector<int>> dp(n+1 , vector<int>(n+1,-1));
-        return solve(1,n,nums,dp);
+        vector<vector<int>> dp(n+2 , vector<int>(n+2,0));
+        // return solve(1,n,nums,dp);
+
+        for(int i = n ; i > 0 ; i--){
+
+            for(int j = i  ; j <= n ; j++){
+                long long maxx = -1e9+7;
+                for(int k = i ; k <= j ; k++){
+
+                    long long coin = (nums[i-1] * nums[k] * nums[j+1]) + dp[i][k-1] + dp[k+1][j]; 
+                    maxx = max(coin , maxx);
+                }
+
+                dp[i][j] = maxx;
+            }
+        }
+
+        return dp[1][n];
     }
 };
