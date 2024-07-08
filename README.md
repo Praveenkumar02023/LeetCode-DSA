@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0300-longest-increasing-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0312-burst-balloons) |
 | [0368-largest-divisible-subset](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0368-largest-divisible-subset) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0368-largest-divisible-subset](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0368-largest-divisible-subset) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -72,4 +74,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1197-parsing-a-boolean-expression](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1197-parsing-a-boolean-expression) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0215-kth-largest-element-in-an-array) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
