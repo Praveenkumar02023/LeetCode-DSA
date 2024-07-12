@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0355-design-twitter](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0876-hand-of-straights) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0355-design-twitter](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0621-task-scheduler) |
 ## Quickselect
 |  |
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0023-merge-k-sorted-lists) |
+| [0355-design-twitter](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0355-design-twitter) |
 ## Merge Sort
 |  |
 | ------- |
@@ -112,4 +115,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0621-task-scheduler) |
+## Design
+|  |
+| ------- |
+| [0355-design-twitter](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0355-design-twitter) |
 <!---LeetCode Topics End-->
