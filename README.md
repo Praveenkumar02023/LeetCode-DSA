@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0110-balanced-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0110-balanced-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0110-balanced-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0110-balanced-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
@@ -167,4 +169,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0347-top-k-frequent-elements) |
+## Depth-First Search
+|  |
+| ------- |
+| [0110-balanced-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0110-balanced-binary-tree) |
 <!---LeetCode Topics End-->
