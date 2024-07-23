@@ -33,8 +33,10 @@ public:
         if (abs(leftH - rightH) > 1)
             return false;
         
-       return ( isBalanced(root->left) || 
-        isBalanced(root->right));
+       if ( !isBalanced(root->left) || 
+        !isBalanced(root->right)) return false;
+
+        return true;
 
       
     }
