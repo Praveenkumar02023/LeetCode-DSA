@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0045-jump-game-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0055-jump-game) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0300-longest-increasing-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0312-burst-balloons) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0621-task-scheduler) |
@@ -105,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0023-merge-k-sorted-lists) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
@@ -157,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0199-binary-tree-right-side-view) |
@@ -177,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0199-binary-tree-right-side-view) |
