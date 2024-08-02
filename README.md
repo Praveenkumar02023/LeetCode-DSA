@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2727-number-of-senior-citizens](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2727-number-of-senior-citizens) |
 ## Binary Search
 |  |
@@ -284,4 +285,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+## Sliding Window
+|  |
+| ------- |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 <!---LeetCode Topics End-->
