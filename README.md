@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1121-partition-array-for-maximum-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2727-number-of-senior-citizens](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2727-number-of-senior-citizens) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Hash Table
 |  |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 ## Two Pointers
 |  |
 | ------- |
