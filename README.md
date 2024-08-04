@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2727-number-of-senior-citizens](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2727-number-of-senior-citizens) |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0300-longest-increasing-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -63,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Hash Table
 |  |
@@ -85,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## String
 |  |
 | ------- |
