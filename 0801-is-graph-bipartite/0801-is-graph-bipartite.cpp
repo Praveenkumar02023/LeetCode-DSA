@@ -1,30 +1,29 @@
 class Solution {
 public:
-void bfs(int root,vector<int>& vis, vector<vector<int>>& graph){
+bool bfs(int root,vector<int>& vis, vector<vector<int>>& graph){
     
-     queue<pair<int,int>>q;
+     queue<int>q;
 
-        q.push({root,-1});
-       
+        q.push(root);
+        vis[root] = 1;
         
         while(!q.empty()){
-            int node =  q.front().first;
-            int parent =  q.front().second;
+            int node =  q.front();
+          
             q.pop();
-            if(parent == -1) vis[node] = 1;
-
-            else if(vis[parent] == 1 ) vis[node] = 2;
-            else vis[node] = 1;
 
             for(auto child : graph[node]){
 
                 if(vis[child] == 0){
-                    q.push({child,node});
-                }
+                    q.push(child);
+                   vis[child] = 3 - vis[node];
+                }else if(vis[child] == vis[node]) return false;
 
             }
            
         }
+
+        return true;
 }
     bool isBipartite(vector<vector<int>>& graph) {
        vector<int> vis(graph.size() , 0);
@@ -33,19 +32,13 @@ void bfs(int root,vector<int>& vis, vector<vector<int>>& graph){
 
             for(auto child: graph[i]){
 
-                if(!vis[child]) bfs(child,vis,graph);
+                if(!vis[child]){
+                   if( bfs(child,vis,graph) == false) return false;;
+                }
 
             }
         }
        
-
-        for(int i = 0; i < graph.size() ; i++){
-            int parCol = vis[i];
-
-            for(auto child : graph[i]){
-                    if(vis[child] == parCol) return false;
-            }
-        }
 
         return true;
     }
