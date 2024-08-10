@@ -9,14 +9,14 @@ public:
         }
 
         for(int i = 0 ; i < pre.size() ; i++){
-                cout<<i<<" ";
+               
             for(auto child : pre[i]){
-                cout<<child;
+                
                 inDegree[child]++;
 
             }
 
-            cout<<endl;
+           
         }
 
         queue<int> q;
