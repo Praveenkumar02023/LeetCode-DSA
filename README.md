@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2727-number-of-senior-citizens](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2727-number-of-senior-citizens) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0300-longest-increasing-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
 ## Stack
 |  |
 | ------- |
@@ -159,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
 ## Quickselect
 |  |
 | ------- |
@@ -315,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -338,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -361,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
 ## Graph
 |  |
 | ------- |
