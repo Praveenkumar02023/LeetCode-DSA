@@ -1,68 +1,44 @@
+
 class Solution {
 public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
         int n = grid.size();
-        if( grid[0][0] == 1 || grid[n-1][n-1] == 1) return -1;
-        queue<pair<pair<int,int>,int>> q;
-        
-        vector<vector<int>> vis(grid.size() , vector<int>(grid.size(),0));
-        
-        q.push({{0,0},0});
+        if (grid[0][0] == 1 || grid[n - 1][n - 1] == 1)
+            return -1;
+        queue<pair<pair<int, int>, int>> q;
+
+        vector<vector<int>> vis(grid.size(), vector<int>(grid.size(), 0));
+
+        vector<int> rowChange = {1, -1, 1, -1, 1, -1, 0, 0};
+        vector<int> colChange = {1, -1, -1, 1, 0, 0, 1, -1};
+
+        q.push({{0, 0}, 0});
         vis[0][0] = 1;
 
-        while(!q.empty()){
+        while (!q.empty()) {
 
-            int i = q.front().first.first;
-            int j = q.front().first.second;
+            int row = q.front().first.first;
+            int col = q.front().first.second;
             int dist = q.front().second;
-            vis[i][j] = 1;
+           
 
-            if(i == n-1 && j == n-1) return dist+1;
+            if (row == n - 1 && col == n - 1)
+                return dist + 1;
 
             q.pop();
 
-            if( (i+1 < n && j + 1 < n) && grid[i+1][j+1] == 0 && vis[i+1][j + 1] == 0){
-               vis[i+1][j + 1] = 1;
-             q.push({{i+1,j+1},dist + 1}); 
-            }
-           
-            if( (i-1 >= 0 && j -1 > 0) && grid[i-1][j-1] == 0 && vis[i-1][j - 1] == 0) {
-                vis[i-1][j - 1] = 1;
-            q.push({{i-1,j-1},dist + 1}); 
-            }
-           
-            if( (i-1 >= 0 && j + 1 < n) && grid[i-1][j+1] == 0 && vis[i-1][j + 1] == 0) {
-                vis[i-1][j + 1] = 1;
-            q.push({{i-1,j+1},dist + 1}); 
-            }
-           
-            if( (i+1 < n && j - 1 > 0) && grid[i+1][j-1] == 0 && vis[i+1][j - 1] == 0){
-                vis[i+1][j - 1] = 1;
-             q.push({{i+1,j-1},dist + 1}); 
-            }
-            
-            if( i+1 < n && grid[i+1][j] == 0 && vis[i+1][j] == 0){
-                 vis[i+1][j] = 1;
+            for (int i = 0; i < 8; i++) {
+                int newRow = row + rowChange[i];
+                int newCol = col + colChange[i];
+                
+                if (newRow >= 0 && newRow < n && newCol >= 0 && newCol < n &&
+                    grid[newRow][newCol] == 0 && vis[newRow][newCol] == 0) {
 
-             q.push({{i+1,j},dist + 1});
+                    vis[newRow][newCol] = 1;
+                    q.push({{newRow,newCol},dist + 1});
+                }
             }
-            
-            if( i-1 >= 0 && grid[i-1][j] == 0 && vis[i-1][j] == 0){
-                 vis[i-1][j] = 1;
-             q.push({{i-1,j},dist + 1});
-            }
-           
-            if( j+1 < n && grid[i][j+1] == 0 && vis[i][j + 1] == 0) {
-             vis[i][j + 1] = 1;
-            q.push({{i,j+1},dist + 1});
-            }
-
-            if( j-1 >= 0 && grid[i][j-1] == 0 && vis[i][j - 1] == 0){
-                vis[i][j - 1] = 1;
-             q.push({{i,j-1},dist + 1});
-            }
-
         }
         return -1;
-    }
+}        
 };
