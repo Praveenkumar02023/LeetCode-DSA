@@ -410,4 +410,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-path-with-maximum-probability](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
