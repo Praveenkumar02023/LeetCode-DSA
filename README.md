@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -428,5 +430,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2132-convert-1d-array-into-2d-array) |
+## Prefix Sum
+|  |
+| ------- |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 <!---LeetCode Topics End-->
