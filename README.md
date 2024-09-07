@@ -198,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0355-design-twitter](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0355-design-twitter) |
+| [1484-linked-list-in-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1484-linked-list-in-binary-tree) |
 ## Merge Sort
 |  |
 | ------- |
@@ -259,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1484-linked-list-in-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1484-linked-list-in-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1484-linked-list-in-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1484-linked-list-in-binary-tree) |
 ## Data Stream
 |  |
 | ------- |
@@ -352,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1073-number-of-enclaves) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1484-linked-list-in-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1484-linked-list-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
@@ -382,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1484-linked-list-in-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1484-linked-list-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
 ## Bit Manipulation
 |  |
