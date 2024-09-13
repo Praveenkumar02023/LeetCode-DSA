@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1325-path-with-maximum-probability](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1325-path-with-maximum-probability) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1435-xor-queries-of-a-subarray](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1435-xor-queries-of-a-subarray) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -397,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0222-count-complete-tree-nodes) |
+| [1435-xor-queries-of-a-subarray](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Monotonic Stack
@@ -473,5 +475,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1435-xor-queries-of-a-subarray](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1435-xor-queries-of-a-subarray) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 <!---LeetCode Topics End-->
