@@ -1,36 +1,34 @@
 class Solution {
 public:
-    bool canPartition(vector<int>& arr) {
 
-        int sum = 0;
-        for(auto & num : arr) sum += num;
-        if(sum % 2) return false;
+    bool f(int n , int sum , vector<int>& nums,vector<vector<int>>& t){
 
-        sum = sum / 2;
-         vector<int> dp(sum+1,0);
-        // return solve(arr.size()-1,sum,arr,dp);
-        
-        
-        dp[0] = 1;
-        
-        
-        if(arr[0] <= sum)
-            dp[arr[0]] = 1;
-        
-        for(int i = 1 ; i < arr.size() ; i++){
-            vector<int>curr(sum+1,0);
-            
-            curr[0] = 1;
-            for(int target = 1 ; target <= sum ; target++){
-                int NotPick = dp[target];
-                int pick = 0;
-                if(arr[i] <= target) pick = dp[target-arr[i]];
-                
-                curr[target] = (pick || NotPick);
-            }
-            dp = curr;
+        if(n == 0){
+            if(sum == 0) return 1;
+            return 0;
+        }  
+
+        if(t[n][sum] != -1) return t[n][sum];
+
+        int take = 0;
+        if(sum >= nums[n-1]){
+            take = f(n-1,sum-nums[n-1],nums,t);
         }
-        
-        return dp[sum];
+        int notTake = f(n-1,sum,nums,t);
+        return t[n][sum] = (take || notTake);
+    }    
+
+    bool canPartition(vector<int>& nums) {
+       int n = nums.size();
+        int sum = 0;
+        for(auto x : nums){
+            sum += x;
+        }
+        if(sum % 2 != 0) return 0;
+
+        vector<vector<int>> t(n+1,vector<int>(sum+1,-1));
+
+        return f(n,sum/2,nums,t);
+
     }
 };
