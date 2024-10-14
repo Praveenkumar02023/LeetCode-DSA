@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2727-number-of-senior-citizens](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2727-number-of-senior-citizens) |
 ## Binary Search
 |  |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1325-path-with-maximum-probability) |
 | [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Quickselect
 |  |
 | ------- |
@@ -225,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0678-valid-parenthesis-string) |
 | [0876-hand-of-straights](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0890-lemonade-change) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Counting
 |  |
 | ------- |
