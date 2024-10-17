@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0368-largest-divisible-subset) |
+| [0670-maximum-swap](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0670-maximum-swap) |
 | [1236-n-th-tribonacci-number](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1236-n-th-tribonacci-number) |
 ## Sorting
 |  |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0621-task-scheduler) |
+| [0670-maximum-swap](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0670-maximum-swap) |
 | [0678-valid-parenthesis-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0678-valid-parenthesis-string) |
 | [0876-hand-of-straights](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0890-lemonade-change) |
