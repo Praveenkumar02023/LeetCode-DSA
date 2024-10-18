@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0064-minimum-path-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0118-pascals-triangle](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0118-pascals-triangle) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0064-minimum-path-sum) |
 | [0118-pascals-triangle](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0118-pascals-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0132-palindrome-partitioning-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0132-palindrome-partitioning-ii) |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0063-unique-paths-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0064-minimum-path-sum) |
 | [0130-surrounded-regions](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0733-flood-fill) |
