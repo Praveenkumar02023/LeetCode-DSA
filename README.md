@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0721-accounts-merge) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
 | [1197-parsing-a-boolean-expression](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1197-parsing-a-boolean-expression) |
+| [1667-find-kth-bit-in-nth-binary-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1197-parsing-a-boolean-expression](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1197-parsing-a-boolean-expression) |
+| [1667-find-kth-bit-in-nth-binary-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -498,6 +500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [1667-find-kth-bit-in-nth-binary-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2132-convert-1d-array-into-2d-array) |
