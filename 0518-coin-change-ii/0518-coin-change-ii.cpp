@@ -1,21 +1,22 @@
 class Solution {
 public:
+    int f(int i , int money ,vector<int>& nums,vector<vector<int>>& dp){
 
-    int solve(int i , vector<int>& coins , int target,vector<vector<int>>& dp){
-        
-        if(i == 0){
-            return (target%coins[0] == 0);
-        }
-        if(dp[i][target] != -1) return dp[i][target];
-        int notPick = solve(i-1,coins,target,dp);
-        int Pick = 0;
-        if(coins[i] <= target) Pick = solve(i,coins,target-coins[i],dp);
+        if(money == 0) return 1;
+        if(i < 0) return 0;
+        if(dp[i][money] != -1) return dp[i][money];
 
-        return dp[i][target] = (Pick + notPick);
+        int take = 0;
+        if(money >= nums[i])
+                take = f(i,money-nums[i],nums,dp);
+        int skip = f(i-1,money,nums,dp);
+        return dp[i][money] = (skip + take);
+
     }
     int change(int amount, vector<int>& coins) {
-    int n  = coins.size();
-       vector<vector<int>> dp(n,vector<int>(amount+1,-1));
-        return solve(n-1,coins,amount,dp);
+        int n = coins.size();
+        vector<vector<int>> dp(n+1,vector<int>(amount+1,-1));
+
+        return f(n-1,amount,coins,dp);
     }
 };
