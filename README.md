@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0542-01-matrix) |
+| [0583-delete-operation-for-two-strings](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0678-valid-parenthesis-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0132-palindrome-partitioning-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0132-palindrome-partitioning-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0516-longest-palindromic-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0516-longest-palindromic-subsequence) |
+| [0583-delete-operation-for-two-strings](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0721-accounts-merge) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
