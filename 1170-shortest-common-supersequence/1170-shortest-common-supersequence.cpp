@@ -1,50 +1,55 @@
 class Solution {
 public:
     string shortestCommonSupersequence(string str1, string str2) {
-        int m = str2.size();
-        int n = str1.size();
-        vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
+        string ans = "";
+        int n = str1.size(), m = str2.size();
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= m; j++) {
+        vector<vector<int>> t(n+1,vector<int>(m+1,0));
 
-                if (str1[i - 1] == str2[j - 1])
-                    dp[i][j] = 1 + dp[i - 1][j - 1];
+        for(int i = 1 ; i <= n ; i++){
 
-                else
-                    dp[i][j] = max(dp[i][j - 1], dp[i - 1][j]);
+            for(int j = 1 ; j <= m ; j++){
+
+                if(str1[i-1] == str2[j-1]){
+                    t[i][j] = 1 + t[i-1][j-1];
+                }else{
+                    t[i][j] = max(t[i-1][j] , t[i][j-1]);
+                }
             }
+
         }
-        cout << dp[n][m];
+        // for(int i = 0 ; i <= n ; i++){
+        //     for(int j = 0 ; j <= m ; j++){
+        //         cout<<t[i][j]<<" ";
+        //     }
+        //     cout<<endl;
+        // }
 
-        string res = "";
+        int i = n , j = m;
+        while(i > 0 && j > 0){
 
-        int i = n, j = m;
-
-        while (i > 0 && j > 0) {
-
-            if (str1[i - 1] == str2[j - 1]) {
-                res += str1[i - 1];
+            if(str1[i-1] == str2[j-1]){
+                ans += str1[i-1];
                 i--;
                 j--;
-            } else if (dp[i][j - 1] > dp[i - 1][j]) {
-                res += str2[j - 1];
-                j--;
-            } else {
-                res += str1[i - 1];
+            }
+            else if(t[i-1][j] > t[i][j-1]){
+                ans += str1[i-1];
                 i--;
+            }else{
+                ans += str2[j-1];
+                j--;
             }
         }
-
         while(i > 0){
-            res += str1[i-1];
+            ans += str1[i-1];
             i--;
-        }
+        }      
         while(j > 0){
-            res += str2[j-1];
+            ans += str2[j-1];
             j--;
         }
-        reverse(res.begin(),res.end());
-    return res;
+        reverse(ans.begin(),ans.end());
+        return ans;
     }
 };
