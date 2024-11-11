@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [2716-prime-subtraction-operation](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2716-prime-subtraction-operation) |
 | [2727-number-of-senior-citizens](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2727-number-of-senior-citizens) |
 ## Binary Search
 |  |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2716-prime-subtraction-operation](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2716-prime-subtraction-operation) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -107,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0368-largest-divisible-subset) |
 | [0670-maximum-swap](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0670-maximum-swap) |
 | [1236-n-th-tribonacci-number](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1236-n-th-tribonacci-number) |
+| [2716-prime-subtraction-operation](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2716-prime-subtraction-operation) |
 ## Sorting
 |  |
 | ------- |
@@ -263,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0890-lemonade-change) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [2716-prime-subtraction-operation](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2716-prime-subtraction-operation) |
 ## Counting
 |  |
 | ------- |
@@ -546,4 +550,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0494-target-sum) |
+## Number Theory
+|  |
+| ------- |
+| [2716-prime-subtraction-operation](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2716-prime-subtraction-operation) |
 <!---LeetCode Topics End-->
