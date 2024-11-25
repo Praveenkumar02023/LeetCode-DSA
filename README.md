@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0721-accounts-merge](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0733-flood-fill) |
+| [0787-sliding-puzzle](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0787-sliding-puzzle) |
 | [0794-swim-in-rising-water](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0854-making-a-large-island) |
 | [0876-hand-of-straights](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0876-hand-of-straights) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0733-flood-fill) |
+| [0787-sliding-puzzle](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0787-sliding-puzzle) |
 | [0794-swim-in-rising-water](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0854-making-a-large-island) |
 | [0967-minimum-falling-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0967-minimum-falling-path-sum) |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0744-network-delay-time) |
+| [0787-sliding-puzzle](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0787-sliding-puzzle) |
 | [0794-swim-in-rising-water](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0803-cheapest-flights-within-k-stops) |
