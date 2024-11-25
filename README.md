@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2089-maximum-matrix-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
+| [2089-maximum-matrix-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2132-convert-1d-array-into-2d-array) |
 ## Stack
 |  |
@@ -272,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0678-valid-parenthesis-string) |
 | [0876-hand-of-straights](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0890-lemonade-change) |
+| [2089-maximum-matrix-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2089-maximum-matrix-sum) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2716-prime-subtraction-operation](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2716-prime-subtraction-operation) |
 ## Counting
