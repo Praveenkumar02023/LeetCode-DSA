@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1073-number-of-enclaves) |
 | [1121-partition-array-for-maximum-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1325-path-with-maximum-probability](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1325-path-with-maximum-probability) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -197,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0854-making-a-large-island) |
 | [0967-minimum-falling-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1073-number-of-enclaves](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1073-number-of-enclaves) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
