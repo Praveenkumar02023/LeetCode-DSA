@@ -1,38 +1,34 @@
 class Solution {
 public:
+    int f(int i , int n , vector<int>& nums,vector<int> &dp){
 
-    // int solve(vector<int>& arr, int j,int Maxx,vector<int>&dp){
-    //     if(j < 0) return 0;
+        if(i >= n) return 0 ;
+        if(dp[i] != -1) return dp[i];
+        int ans = 0;
+        int minPrice = 1e9+7;
+       for(int j = 0 ; j < i ; j++){
 
-    //     if(dp[j] != -1) return dp[j];
+            minPrice = min(minPrice , nums[j]);
+            ans = max(ans, nums[j] - minPrice);
+       }
+        //notTake
+        ans = max(ans,f(i+1,n,nums,dp));
 
-    //     int Profit = 0;
-    //     if(arr[j] > Maxx) Maxx = arr[j];
-    //     else{
-    //         Profit = Maxx-arr[j];
-    //     }
-
-    //     int possProfit = solve(arr,j-1,Maxx,dp);
-
-    //     return dp[j] = max(possProfit,Profit);
-
-    // }
-    int maxProfit(vector<int>& arr) {
-        int n = arr.size();
-       int MaxProfit = 0; 
-        // return solve(prices,n-1,INT_MIN,dp);
-        int Minn = INT_MAX;
-        for(int j = 0 ; j < n ; j++){
-
-            int Profit = 0;
-           
-            if(arr[j] < Minn) Minn = arr[j];
-            else{
-                Profit = arr[j] - Minn;
+        return dp[i] =  ans;
+    }
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size();
+    //    vector<int> dp(n+1,-1);
+    //     return f(0,n,prices,dp);
+        int buy = prices[0];
+        int diff = 0;
+        for(int i = 1 ;  i < n ; i++ ){
+            diff = max(diff,prices[i] - buy);
+            if(prices[i] < buy){
+                buy = prices[i];
             }
-            MaxProfit = max(Profit,MaxProfit);
         }
 
-        return MaxProfit;    
+        return diff;
     }
 };
