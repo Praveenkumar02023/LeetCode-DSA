@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0045-jump-game-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0064-minimum-path-sum) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0064-minimum-path-sum) |
 | [0130-surrounded-regions](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0130-surrounded-regions) |
@@ -570,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0054-spiral-matrix) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2076-sum-of-digits-of-string-after-convert) |
