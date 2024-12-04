@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0031-next-permutation) |
 | [0045-jump-game-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0054-spiral-matrix) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0031-next-permutation) |
 | [0295-find-median-from-data-stream](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
