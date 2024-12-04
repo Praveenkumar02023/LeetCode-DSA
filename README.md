@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1972-rotating-the-box](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1972-rotating-the-box) |
 | [2232-adding-spaces-to-a-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2232-adding-spaces-to-a-string) |
+| [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## String
 |  |
 | ------- |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2232-adding-spaces-to-a-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2232-adding-spaces-to-a-string) |
 | [2727-number-of-senior-citizens](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2727-number-of-senior-citizens) |
+| [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## Binary Indexed Tree
 |  |
 | ------- |
