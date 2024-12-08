@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2089-maximum-matrix-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2164-two-best-non-overlapping-events](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2164-two-best-non-overlapping-events) |
 | [2232-adding-spaces-to-a-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2232-adding-spaces-to-a-string) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2164-two-best-non-overlapping-events](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2164-two-best-non-overlapping-events) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2716-prime-subtraction-operation](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2716-prime-subtraction-operation) |
 ## Dynamic Programming
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2164-two-best-non-overlapping-events](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2164-two-best-non-overlapping-events) |
 ## Math
 |  |
 | ------- |
@@ -147,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [2164-two-best-non-overlapping-events](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2164-two-best-non-overlapping-events) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Hash Table
 |  |
@@ -279,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1325-path-with-maximum-probability](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1325-path-with-maximum-probability) |
 | [1753-path-with-minimum-effort](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1753-path-with-minimum-effort) |
+| [2164-two-best-non-overlapping-events](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2164-two-best-non-overlapping-events) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
