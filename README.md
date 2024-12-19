@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0721-accounts-merge](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0733-flood-fill) |
+| [0780-max-chunks-to-make-sorted](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0787-sliding-puzzle) |
 | [0794-swim-in-rising-water](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0854-making-a-large-island) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0721-accounts-merge) |
+| [0780-max-chunks-to-make-sorted](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0780-max-chunks-to-make-sorted) |
 | [0876-hand-of-straights](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
@@ -253,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0678-valid-parenthesis-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0678-valid-parenthesis-string) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0780-max-chunks-to-make-sorted](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0780-max-chunks-to-make-sorted) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1197-parsing-a-boolean-expression](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1197-parsing-a-boolean-expression) |
 ## Recursion
@@ -313,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0621-task-scheduler) |
 | [0670-maximum-swap](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0670-maximum-swap) |
 | [0678-valid-parenthesis-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0678-valid-parenthesis-string) |
+| [0780-max-chunks-to-make-sorted](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0780-max-chunks-to-make-sorted) |
 | [0876-hand-of-straights](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0890-lemonade-change) |
 | [2089-maximum-matrix-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2089-maximum-matrix-sum) |
@@ -516,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0780-max-chunks-to-make-sorted](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0780-max-chunks-to-make-sorted) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Sliding Window
 |  |
