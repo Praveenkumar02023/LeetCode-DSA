@@ -1,32 +1,21 @@
 class Solution {
 public:
-    int f(int i , int sum , vector<int>& nums, vector<vector<int>>& dp){
+    int solve(int i,int sum ,vector<int>&nums,int target){
 
-        if(i == 0){
-            
-            if(sum == 0 && nums[i] == 0) return 2;
-            if(sum == 0) return 1;
-            return nums[i] == sum;
+        if(i == nums.size()){
+
+            if(sum == target)return 1;
+            else return 0;
         }
 
-        if(dp[i][sum] != -1) return dp[i][sum];
+        int plus = solve(i+1,sum + nums[i],nums, target);
 
-        int take = 0;
-        if(sum >= nums[i]) take = f(i-1,sum-nums[i],nums,dp);
-        int notTake = f(i-1,sum,nums,dp);
+        int minus = solve(i+1,sum - nums[i],nums,target);
 
-        return dp[i][sum] = take + notTake;
+        return plus + minus;
     }
-
     int findTargetSumWays(vector<int>& nums, int target) {
-        int totalSum = accumulate(nums.begin(),nums.end(),0);
         int n = nums.size();
-        int reqSum = (totalSum - target)/2;
-
-        if((totalSum - target) < 0 || (totalSum - target) % 2 == 1) return 0;
-
-
-        vector<vector<int>>dp(n+1 , vector<int>(reqSum + 1 , -1)); 
-        return f(n-1,reqSum,nums,dp);
+        return solve(0,0,nums,target);
     }
 };
