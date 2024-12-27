@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0890-lemonade-change) |
 | [0967-minimum-falling-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1063-best-sightseeing-pair](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1063-best-sightseeing-pair) |
 | [1073-number-of-enclaves](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1073-number-of-enclaves) |
 | [1121-partition-array-for-maximum-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0678-valid-parenthesis-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0967-minimum-falling-path-sum) |
+| [1063-best-sightseeing-pair](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1063-best-sightseeing-pair) |
 | [1121-partition-array-for-maximum-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1170-shortest-common-supersequence) |
