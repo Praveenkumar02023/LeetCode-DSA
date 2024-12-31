@@ -23,8 +23,19 @@ public:
     int mincostTickets(vector<int>& days, vector<int>& costs) {
         int n = days.size();
 
-        int i = 0;
-        vector<int> dp(n+1,-1);
-        return solve(i,days,costs,n,dp);
+        // int i = 0;
+        vector<int> dp(n+2,0);
+        // return solve(i,days,costs,n,dp);
+
+        for(int i = n-1; i >= 0; i--){
+
+            int takeOne = costs[0] + dp[i+1];
+            int takeSeven = costs[1] + dp[upperBound(days,days[i]-1 + 7)];
+            int takeThirty = costs[2] + dp[upperBound(days,days[i]-1 + 30)];
+
+            dp[i] = min({takeOne,takeSeven,takeThirty});
+        }
+
+        return dp[0];
     }
 };
