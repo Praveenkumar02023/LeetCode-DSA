@@ -214,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1197-parsing-a-boolean-expression](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -629,6 +630,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1435-xor-queries-of-a-subarray](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1435-xor-queries-of-a-subarray) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [3427-special-array-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/3427-special-array-ii) |
 ## Brainteaser
