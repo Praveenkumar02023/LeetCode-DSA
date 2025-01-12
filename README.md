@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0130-surrounded-regions) |
 | [0198-house-robber](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0198-house-robber) |
+| [0212-word-search-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0300-longest-increasing-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0127-word-ladder) |
 | [0132-palindrome-partitioning-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0132-palindrome-partitioning-ii) |
+| [0212-word-search-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0212-word-search-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0516-longest-palindromic-subsequence](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0583-delete-operation-for-two-strings) |
@@ -263,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0064-minimum-path-sum) |
 | [0130-surrounded-regions](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0130-surrounded-regions) |
+| [0212-word-search-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0212-word-search-ii) |
 | [0542-01-matrix](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0733-flood-fill) |
 | [0787-sliding-puzzle](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0787-sliding-puzzle) |
@@ -686,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0212-word-search-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0494-target-sum) |
 ## Number Theory
 |  |
@@ -709,6 +713,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0212-word-search-ii](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/0212-word-search-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Praveenkumar02023/LeetCode-DSA/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Rolling Hash
 |  |
