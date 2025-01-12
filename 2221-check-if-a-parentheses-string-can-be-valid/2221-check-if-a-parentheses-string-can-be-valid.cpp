@@ -3,41 +3,26 @@ public:
     bool canBeValid(string s, string locked) {
         int n = s.size();
 
-        stack<int> open;
-        stack<int> unlock;
+        if(n % 2 != 0) return false;
+
+       int open = 0;
+       int close = 0;
 
         for(int i = 0 ; i < n ;i++){
 
-            if(locked[i] == '0'){
-                unlock.push(i);
-            }
-            else{
+            if(open < 0) return false;
 
-                if(s[i] == '('){
-                    open.push(i);
-                }else{
-
-                    if(!open.empty()){
-                        open.pop();
-                    }else if(!unlock.empty()){
-                        unlock.pop();
-                    }else return false;
-                }
-            }
+            if(s[i] == '(' || locked[i] == '0') open++;
+            else if(s[i] == ')') open--;
         }
 
-        while(!open.empty() && !unlock.empty()){
+        for(int i = n-1 ; i >= 0 ;i--){
 
-            int openIdx = open.top();
-            open.pop();
+            if(close < 0) return false;
 
-            int unlockIdx = unlock.top();
-            unlock.pop();
-
-            if(unlockIdx < openIdx) return false;
+            if(s[i] == ')' || locked[i] == '0') close++;
+            else if(s[i] == '(') close--;
         }
-
-        if(open.size() > 0 || unlock.size() % 2 != 0) return false;
 
         return true;
     }
