@@ -37,8 +37,11 @@ public:
         string ansNumBin = "";
         string num1Bin = binAndCnt1.first;
 
-        if (setBitIn1 > setBitIn2) {
-            for (auto ch : num1Bin) {
+        bool flag = true;
+
+        if(setBitIn1 > setBitIn2) flag = false;
+
+        for (auto ch : num1Bin) {
                 if (ch != '0') {
                     if (setBitIn2 > 0) {
                         ansNumBin.push_back('1');
@@ -50,19 +53,9 @@ public:
                     ansNumBin.push_back('0');
                 }
             }
-        } else {
-            for (auto ch : num1Bin) {
-                if (ch != '0') {
-                    if (setBitIn2 > 0) {
-                        ansNumBin.push_back('1');
-                        setBitIn2--;
-                    } else {
-                        ansNumBin.push_back('0');
-                    }
-                } else {
-                    ansNumBin.push_back('0');
-                }
-            }
+
+
+        if (flag) {
 
             int k = ansNumBin.size() - 1;
             while (k >= 0 && setBitIn2 > 0) {
