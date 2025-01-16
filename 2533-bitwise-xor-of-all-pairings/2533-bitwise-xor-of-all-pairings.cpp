@@ -5,30 +5,46 @@ public:
         int n = nums1.size();
         int m = nums2.size();
 
-        unordered_map<long long,long long> freq;
-
-        for(auto num : nums1){
-
-            freq[num] += m;
-
-        }
-         for(auto num : nums2){
-
-            freq[num] += n;
-
+        if(n%2 == 0 && m % 2==0){
+            return 0;
         }
 
-        long long ans = 0;
+        int ans = 0;
 
-        for(auto it : freq){
+        if(n % 2 == 0 && m % 2 != 0){
 
-            if(it.second & 1){
-                ans ^= it.first;
+            for(auto num : nums1){
+
+                ans ^= num;
+
             }
+        }
+
+        if(n % 2 != 0 && m % 2 == 0){
+
+            for(auto num : nums2){
+
+                ans ^= num;
+
+            }
+        }
+        
+        if(n&1 && m&1){
+
+            for(auto num : nums1){
+
+                ans ^= num;
+
+            }     
+
+             for(auto num : nums2){
+
+                ans ^= num;
+
+            }       
 
         }
 
-
-        return ans;
+        return ans; 
     }
 };
